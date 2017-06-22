@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html>
+      <head>
+            <title> Assignment 5.1</title>
+            <script type="text/javascript">
+                   /*to pass the radius to function*/
+                  function circleArea(r)  {
+
+                                       var r=document.getElementById("r").value;
+                                       /*to find area of circle using formula*/
+                                       r=3.14159*r*r;
+                                       r= r.toFixed(2);                 
+                   
+                                      document.write(("Area of circle : ").fontcolor("red") +r.fontcolor("red"));
+       
+                                          }
+              
+             </script>
+        </head>
+        <body>
+              <p>Enter the radius</p>
+ 
+              <input type="text" id="r"></input>
+
+              <input type="button" value="click" onclick="circleArea(r)"></input></br></br></br>
+           
+        </body>
+</html>
